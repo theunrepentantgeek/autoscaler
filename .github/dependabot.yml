@@ -107,7 +107,7 @@ updates:
 # Go - Cluster Autoscaler
 - directory: "/cluster-autoscaler"
   package-ecosystem: "gomod"
-  open-pull-requests-limit: 5
+  open-pull-requests-limit: 20
   schedule:
     interval: "daily"
     time: "15:00"
