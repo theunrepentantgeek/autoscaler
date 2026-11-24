@@ -2271,6 +2271,22 @@ entries:
     version: 1.0.0
   vertical-pod-autoscaler:
   - apiVersion: v2
+    appVersion: 1.8.1
+    created: "2026-11-24T22:17:58.786886907Z"
+    description: Automatically adjust resources for your workloads
+    digest: 2219b421bfcd498cea96549d55a04434d4c7c1b18196861bb8fd36f31affa03a
+    icon: https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png
+    maintainers:
+    - email: kubernetes-sig-autoscaling@googlegroups.com
+      name: adrianmoisey
+    - email: kubernetes-sig-autoscaling@googlegroups.com
+      name: omerap12
+    name: vertical-pod-autoscaler
+    type: application
+    urls:
+    - https://github.com/theunrepentantgeek/autoscaler/releases/download/vertical-pod-autoscaler-chart-0.17.0/vertical-pod-autoscaler-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
     appVersion: 1.7.0
     created: "2026-07-15T19:33:56.655828488Z"
     description: Automatically adjust resources for your workloads
@@ -2430,4 +2446,4 @@ entries:
     urls:
     - https://github.com/kubernetes/autoscaler/releases/download/cluster-autoscaler-chart-0.1.0/vertical-pod-autoscaler-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-22T23:08:54.444581318Z"
+generated: "2026-11-24T22:17:58.787171619Z"
